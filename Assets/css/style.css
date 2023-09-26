@@ -1,0 +1,80 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2%;
+    background-color: black;
+    color: white;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: space-between;
+    min-width: 500px;
+    
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    color: rgb(158, 158, 158);
+  }
+
+  .h1-joes {
+    color: white;
+    font-size: 300%;
+  }
+
+  .h1-portfolio {
+    color: rgb(158, 158, 158);
+  }
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    line-height: 2.0;
+  }
+  
+  .section-h2 {
+    padding: 2% 4% 1% 2%;
+    color: black;
+  }
+
+  .section-about-img {
+    height: auto;
+    width: 100%;
+    padding: 10%;
+  }
+
+  /* Do not use table; use flexbox */
+  .section-app-img {
+    align-items: center;
+    padding: 4%;
+  }
+
+  .section-p {
+    padding: 2%;
+    line-height: 1.5;
+  }
+
+  .form {
+    padding: 2%;
+  }
+
+  .form-share-email {
+    font-size: smaller;
+  }
+
+ .form-button {
+    padding: .2%;
+  }
+
+  .footer {
+    padding: 1%;
+    text-align: center;
+  }
+  
