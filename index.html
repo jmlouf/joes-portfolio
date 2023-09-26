@@ -3,10 +3,83 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
+        <title>Joe's Portfolio</title>
+        <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
+        <link rel="stylesheet" type="text/css" href="./assets/css/reset.css" />
     </head>
 
     <body>
-    
+        <header>
+            <h1 class="h1-joes">Joe's<strong class="h1-portfolio">Portfolio</strong></h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Applications</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Feedback</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section>
+                <h2 class="section-h2">About</h2><hr>
+                <table>
+                    <tr>
+                        <td width="20%"><img class="section-about-img" src="./assets/images/about-img.jpg" alt="Image of developer."></td>
+                        <td>My name is Joe Maalouf and this website is to display my online portfolio. I am new to coding and have always wanted to make a career out of it. I have been experimenting with HTML and CSS, so far.</td>
+                    </tr>
+                </table>
+            </section>
+
+            <section>
+                <h2 class="section-h2">Applications</h2><hr>
+            </section>
+
+            <section>
+                <h2 class="section-h2">Contact</h2><hr>
+                <p class="section-p">
+                    Phone: 702.831.1959<br>
+                    E-mail: jmmaalouf1@gmail.com<br>
+                    Github: <a href="https://github.com/jmlouf">github.com/jmlouf</a><br>
+                    LinkedIn: <a href="https://www.linkedin.com/in/josephmmaalouf/">linkedin.com/in/josephmmaalouf</a>
+                </p>
+            </section>
+
+            <section>
+                <h2 class="section-h2">Feedback</h2><hr>
+                <form class="form">
+                    <p>Feel free to reach out with any questions or comments about my portfolio.</p><br>
+                    <p>
+                        <label for="name">Name:</label>
+                        <input type="text" placeholder="First Last" />
+                    </p>
+                    <br>
+                    <p>
+                        <label for="email">Email:</label>
+                        <input type="email" placeholder="me@example.com" />
+                    </p>
+                    <br>
+                    <p>
+                        <label for="feedback">Feedback:</label>
+                        <textarea id="comment" placeholder="Questions/Comments"></textarea>
+                    </p>
+                    <br>
+                    <p class="form-share-email">
+                        <input class="checkbox" id="agreement" type="checkbox" />
+                        <label for="agreement">I agree to share my e-mail with the developer.</label>
+                    </p>
+                    <br>
+                    <p>
+                        <button class="form-button">Submit</button>
+                    </p>
+                </form>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <p>&copy; 2023 Joe's Portfolio, Inc.</p>
+        </footer>
     </body>
 </html>
