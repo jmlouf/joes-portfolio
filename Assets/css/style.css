@@ -48,12 +48,24 @@ nav a:hover {
     color: rgb(158, 158, 158);
 }
 
-.section-about-img {
+table {
+    margin: 0 auto;
+    padding: 2%;
+}
+
+.td-1 {
+    padding-right: 5%;
+}
+
+.td-2 {
+    padding-left: 5%;
+}
+
+.about-img {
     display: flex;
     flex: 1;
     height: auto;
     width: 100%;
-    padding: 10%;
 }
 
 .section-application-1 {
